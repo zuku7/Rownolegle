@@ -1,6 +1,7 @@
 #pragma once
 class Node
 {
+public:
 	int id;
 	float x;
 	float y;

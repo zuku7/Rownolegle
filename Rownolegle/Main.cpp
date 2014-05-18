@@ -23,18 +23,25 @@ int main(){
 	float horBreak = width / nodesHorizontal;
 	float verBreak = height / nodesVertical;
 
-	cout << horBreak<<" "<<verBreak << endl;
+	//cout << horBreak<<" "<<verBreak << endl;
 
 	int idTemp = 0;
 	float xTemp = 0;
 	float yTemp = 0;
 
 	for (int i = 0; i < nodesVertical; i++){
+		xTemp = 0;
 		for (int j = 0; j < nodesHorizontal; j++){
-
+			nodesList.push_back(Node(idTemp, xTemp, yTemp));
+			xTemp += horBreak;
+			++idTemp;
 		}
+		yTemp += verBreak;
 	}
 
+	for each(Node n in nodesList){
+		cout << n.id << " " << n.x << " " << n.y << "\n";
+	}
 
 	system("pause");
 
