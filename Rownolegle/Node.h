@@ -1,3 +1,5 @@
+#include<vector>
+
 #pragma once
 class Node
 {
@@ -8,6 +10,7 @@ public:
 
 public:
 	Node(int _id, float _x, float _y);
+	Node();
 	~Node();
 };
 

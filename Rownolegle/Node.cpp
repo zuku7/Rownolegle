@@ -7,7 +7,13 @@ Node::Node(int _id, float _x, float _y){
 	y = _y;
 }
 
+Node::Node(){
+	id = NULL;
+	x = NULL;
+	y = NULL;
+}
 
 Node::~Node()
 {
 }
+

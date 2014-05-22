@@ -1,14 +1,6 @@
-﻿Build started 2014-05-19 22:24:54.
+﻿Build started 2014-05-22 15:54:05.
      1>Project "C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Rownolegle\Rownolegle.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Element.cpp Main.cpp
-         Main.cpp
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(49): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-         Compiling...
-         Element.cpp
-         Generating Code...
-       Link:
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.lib" /MACHINE:X86 Debug\Element.obj
          Debug\Main.obj
          Debug\Node.obj
@@ -17,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.73
+Time Elapsed 00:00:00.30
