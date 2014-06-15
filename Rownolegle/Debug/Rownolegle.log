@@ -1,21 +1,16 @@
-﻿Build started 2014-06-07 22:05:34.
+﻿Build started 2014-06-14 13:21:19.
      1>Project "C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Rownolegle\Rownolegle.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\2.9\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(69): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(117): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(144): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(160): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.lib" /MACHINE:X86 Debug\Element.obj
-         Debug\Main.obj
-         Debug\Node.obj
-         Debug\Point.obj
-         Rownolegle.vcxproj -> C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Debug\Rownolegle.exe
-     1>Done Building Project "C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Rownolegle\Rownolegle.vcxproj" (Build target(s)).
+     1>c:\program files (x86)\amd app sdk\2.9\include\cl\cl.hpp(2996): error C2664: 'cl_int clEnqueueNativeKernel(cl_command_queue,void (__stdcall *)(void *),void *,size_t,cl_uint,const cl_mem *,const void **,cl_uint,const cl_event *,cl_event *)' : cannot convert argument 2 from 'void (__cdecl *)(void *)' to 'void (__stdcall *)(void *)'
+                 This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(165): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(166): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\tomek\documents\visual studio 2013\projects\rownolegle\rownolegle\main.cpp(327): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "C:\Users\Tomek\documents\visual studio 2013\Projects\Rownolegle\Rownolegle\Rownolegle.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.74
+Time Elapsed 00:00:00.76
