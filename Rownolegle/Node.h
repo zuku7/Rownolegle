@@ -4,9 +4,9 @@
 class Node
 {
 public:
-	int id;
-	float x;
-	float y;
+	int id; /*!< Id wezla */
+	float x; /*!< Wspolrzedna x */
+	float y; /*!< Wspolrzedna y */
 
 public:
 	Node(int _id, float _x, float _y);
